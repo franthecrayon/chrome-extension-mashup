@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Daisies Everywhere",
+  "version": "1.0",
+  "description": "This extension changes all images into daisies",
+  "content_scripts": [
+    {
+      "matches":  ["http://*/*","https://*/*","<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
